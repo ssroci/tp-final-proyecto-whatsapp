@@ -1,53 +1,185 @@
-.contenedor-chat{
-               
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+.chat-seleccionado {
+  flex: 1;
+  background-color:  rgb(247, 245, 243);
+  color: rgb(115, 119, 119);
   display: flex;
   flex-direction: column;
-  background-image: url(../../abstract-soft-pastel-colorful-background.jpg);
-  font-family:  Tahoma, sans-serif;
-  font-size: 15px;
-  color: black;
+  height: 120%;
+
+
 }
 
-
-.contacto-seleccionado {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-  padding: 15px;
-  background-color: #075e54;
-  color: white;
+.contacto-seleccionado{
+  display: flex;
+  flex-direction: row;
+justify-content: start;
+  padding: 10px 30px;
+   background-image: url(./../../../public/imagenes/fondologin.png);
+   margin-top: 50px;
+   gap: 10px;
 }
+
+.nombreseleccionado{
+ border-radius: 8px;
+ color: rgb(250, 246, 246);
+ text-align:left;
+ font-size: 20px;
+}
+
 
 
 .mensaje-chat {
-        display: flex;
-    flex-direction: column;
-     
-  overflow-y: auto;
-  padding: 15px;
+  flex: 1;                 
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+    overflow-y:auto;
+}
+.mensaje-chat::-webkit-scrollbar {
+  width: 3px;   
+
+}
+
+.mensaje-chat::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+
+
+.mensaje-burbuja {
+  max-width: 60%;
+  padding: 8px 14px;
+  margin-bottom: 8px;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.mio {
+  align-self: flex-end;
+  background-color: #c2e6a7;
+  text-align: justify;
+}
+
+.otro {
+  align-self: flex-start;
+  background-color: #475a64;
+  color: white;
+  text-align: justify;
+ 
 }
 
 .chat-form {
-  display: flex;              
+  display: flex;
+  margin-top:  auto;
   padding: 10px;
-  background-color: #f0f0f0;
-  border-top: 1px solid #ddd;
+  gap: 10px;
+  background-image: url(./../../../public/imagenes/fondologin.png);
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-bottom: -30px;
+ 
+  
 }
 
-.chat-form textarea {
-  flex: 1;
-  resize: none;
-  height: 40px;
+.escribeunmensaje {
+  flex: 1;                
   border-radius: 20px;
-  padding: 8px;
-}
-
-.chat-form button {
-  margin-left: 10px;
-  padding: 10px 16px;
-  border-radius: 20px;
-  background-color: #075e54;
-  color: white;
+  padding: 10px 15px;
   border: none;
+  outline: none;
+  font-family:  Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bi-send{
+  padding: 8px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #00a884;
+  color: rgb(245, 239, 239);
+  font-size: 30px;
+  align-items: normal;
+  
+}
+
+.bi-arrow-left-square-fill{
+ font-size: 25px;
+ color: #544463;
+ display: none;
+ justify-content: start;
+ margin-top: 15px;
+ margin-left: 50px;
+
+
+}
+
+@media (max-width: 928px){
+
+
+  .chat-seleccionado {
+    height: 100vh; 
+    width: 100vw;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+
+  
+  .nombreseleccionado {
+    margin-top: 15px; 
+    border-radius: 0; 
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+   
+  
+  }
+.bi-arrow-left-square-fill{
+  display: flex;
+  justify-content: start;
+
+}
+ 
+.contacto-seleccionado{
+  display: flex;
+  flex-direction: row;
+ 
+   background-image: url(./../../../public/imagenes/fondologin.png);
+ margin-bottom: 10px;
+ position: sticky;
+ margin-top: 0px;
+ gap: 50px;
+  
+}
+  .mensaje-burbuja {
+    max-width: 85%; 
+    font-size: 14px;
+  }
+
+  
+  .chat-form {
+    margin-left: 0;   
+    margin-bottom: 0; 
+    border-radius: 0; 
+    gap: 8px;
+    position: sticky; 
+    bottom: 0;
+  }
+
+  
+  .bi-send {
+    padding: 5px 15px;
+    font-size: 24px;
+  }
+
+  
+  .escribeunmensaje {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+
 }

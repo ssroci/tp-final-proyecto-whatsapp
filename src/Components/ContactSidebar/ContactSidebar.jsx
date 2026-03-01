@@ -1,52 +1,42 @@
 import React, { useContext } from "react";
-import { ContactsContext } from "../../Context/ContactsContext";
-import { getContacts } from '../../services/contactsService'
 import { Link } from "react-router";
-import './ContactSidebar.css'
+import { ContactsContext } from "../../Context/ContactsContext";
+import "./ContactSidebar.css";
 
+export default function ContactSidebar() {
+  const { contacts } = useContext(ContactsContext);
 
+  return (
+    <div className="sidebar-lista">
+    <div className="primeraparte">
+      <h2 className="Chats"> WhatsApp</h2>
+     <i class="bi bi-folder-plus">
+      </i><i class="bi bi-three-dots-vertical"></i>
+      
+</div>
 
+      <div className="contactos-sidebar">
+        {contacts.map((contact) => (
+          <Link
+            key={contact.id}
+            to={`/contactos/${contact.id}`}
+            className="contacto-chat"
+          >
+            <img
+              src={contact.imagen_perfil}
+              alt={contact.name}
+              className="foto-perfil"
+            />
 
-export default function ContactSidebar (){
-   const {contacts} =  useContext(ContactsContext)
-    
-return (
-<div className="sidebar-lista"> 
-    <h2> Contactos </h2>
-    <div className="contactos-sidebar">
-           {
-                contacts.map(
-                    (contact ) => {
-                        return (
-                           <Link 
-                                to={`/contact/${contact.id}`}
-                                key={contact.id}
-                                
-                            >
-                                
-                                <img 
-                                    src ={contact.imagen_perfil} 
-                                    alt={contact.name} 
-                                    className="foto-perfil"
-                    
-                                    style={
-                                        {
-                                            
-                                            
-                                            
-                                        }
-                                    }
-                                />
-                                <h3>{contact.name}</h3>
-                                <span>{contact.ultima_conexión}</span>
-                                <br />
-                                <hr />
-                            </Link>
-                        )
-                    }
-                )
-            }
-        </div>
+            <div className="informacion">
+              <div className="_información">
+              <h3 className="nombre">{contact.name}</h3>
+              <span className="conexión">{contact.ultima_conexión}</span>
+            </div>
+            </div>
+          </Link>
+        ))}
+      </div>
     </div>
-  )
+  );
 }

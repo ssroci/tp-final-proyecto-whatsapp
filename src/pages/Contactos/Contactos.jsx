@@ -1,30 +1,22 @@
 
-import React, { useContext } from 'react'
-import { Link } from 'react-router'
-import { ContactsContext } from '../../Context/ContactsContext'
-import ContactSidebar from '../../Components/ContactSidebar/ContactSidebar'
+import ContactSidebar from "../../Components/ContactSidebar/ContactSidebar";
+import { Outlet, useParams } from "react-router"; 
 import './Contactos.css'
 
 export default function Contactos() {
-  const { contacts } = useContext(ContactsContext)
+  const { contact_id } = useParams(); 
 
   return (
-    <div className='contenedor-contactos'>
+    /* Usamos tu clase .container y le sumamos .chat-abierto si hay ID */
+    <div className={`container ${contact_id ? 'chat-abierto' : ''}`}>
+      
       <ContactSidebar />
-      <div className='lista-contactos'>
 
-      <h1> CHATS </h1>
+      {/* Usamos tu clase .chat-container */}
+      <div className="chat-container">
+        <Outlet /> 
+      </div>
 
-      {contacts.map(contact => (
-        <Link
-          key={contact.id}
-          to={`/chat/${contact.id}`}
-          className='contacto-item'
-        >
-          <p>{contact.name}</p>
-        </Link>
-      ))}
     </div>
-    </div>
-  )
+  );
 }

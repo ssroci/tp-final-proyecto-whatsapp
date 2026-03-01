@@ -4,33 +4,24 @@ import Login from "./pages/Login/Login";
 import Contactos from "./pages/Contactos/Contactos";
 import Chat from "./pages/Chat/Chat";
 import Error from "./pages/Error/Error"; 
-
 import ContactsContextProvider from './Context/ContactsContext';
-
-
-
+import './App.css'
 
 function App() {
+  return (
+    <ContactsContextProvider> 
+      <Routes>
+        <Route path="/" element={<Login />} />
 
- return (
- <div>
-  <ContactsContextProvider> 
- <Routes>
-      <Route path="/" element={<Login />} />
-   <Route
-                        path='/contact/:contact_id'
-                        element={
-                            <Contactos/>
-                        }
-                    />
-                    
-        <Route path="/chat/:contact_id" element={<Chat />} />
-      <Route path="*" element={<Error />} />
+        <Route path="/contactos" element={<Contactos />}>
+          <Route path=":contact_id"  element={<Chat key={window.location.pathname} />} 
+  />
+        </Route>
 
-    </Routes>
-  </ContactsContextProvider>
-</div>
-
- )
+        <Route path="*" element={<Error />} />
+      </Routes>
+    </ContactsContextProvider>
+  )
 }
+
 export default App

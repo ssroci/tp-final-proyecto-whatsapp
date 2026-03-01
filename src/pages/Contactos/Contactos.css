@@ -1,26 +1,74 @@
-.contenedor-contactos {
+
+
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  background-color: rgb(247, 245, 243);
+}
+
+.container {
   display: flex;
-  height: 100vh;
-  background-color: #f0f2f5;
+  height: 100vh;   
+  background-color: rgb(247, 245, 243);
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: stretch;
+  color: rgb(63, 62, 60);
+
+ 
 }
 
-.lista-contactos{
-  width:15%;
-  background-color: white;
-  border-right: 1px solid #ddd;
-  padding: 15px;
+.chat-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+height: 100%;
+  background-image: url(../../../public/imagenes/whablanco.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.contacto-item {
-  display: block;
-  padding: 12px;
-  margin-bottom: 8px;
-  text-decoration: none;
-  color: #111;
-  border-radius: 8px;
-  cursor: pointer;
+.chat-box {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(63, 62, 60);
 }
 
-.contacto-item:hover {
-  background-color: #e9edef;
+.eligeunchat {
+  text-align: center;
+  color: gray;
+}
+
+body {
+  overflow: hidden;
+}
+
+@media (max-width: 928px){
+/* 1. Si NO hay chat seleccionado (Estado inicial) */
+  .ContactSidebar {
+    width: 100vw; /* El sidebar ocupa todo */
+    display: block;
+  }
+  .chat-container {
+    display: none; /* El contenedor del chat se esconde */
+  }
+
+  /* 2. Cuando el chat está ABIERTO (Clase .chat-abierto) */
+  .container.chat-abierto .ContactSidebar {
+    display: none; /* ESCONDEMOS EL SIDEBAR */
+  }
+
+  .container.chat-abierto .chat-container {
+    display: block; /* MOSTRAMOS EL CHAT */
+    width: 100vw;
+    height: 100vh;
+  }
+
 }
