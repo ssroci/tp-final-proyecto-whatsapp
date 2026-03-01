@@ -51,24 +51,22 @@ body {
 }
 
 @media (max-width: 928px){
-/* 1. Si NO hay chat seleccionado (Estado inicial) */
+
   .ContactSidebar {
-    width: 100vw; /* El sidebar ocupa todo */
+    width: 100vw; 
     display: block;
   }
   .chat-container {
-    display: none; /* El contenedor del chat se esconde */
+    display: none; 
   }
-
-  /* 2. Cuando el chat está ABIERTO (Clase .chat-abierto) */
   .container.chat-abierto .ContactSidebar {
-    display: none; /* ESCONDEMOS EL SIDEBAR */
+    display: none; 
   }
 
   .container.chat-abierto .chat-container {
-    display: block; /* MOSTRAMOS EL CHAT */
+    display: block; 
     width: 100vw;
     height: 100vh;
   }
 
-}
+  }
