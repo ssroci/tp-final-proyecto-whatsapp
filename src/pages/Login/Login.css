@@ -72,7 +72,7 @@
     flex-direction: column;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 15px;
-    padding: 40px 120px;
+    padding: 40px 50px;
     background-color: rgb(106, 201, 169);
   
 
@@ -80,9 +80,18 @@
     color: rgb(60, 65, 62);
     font-size: 16px;
     
-     
-
-    
+      
+}
+.boton-ingresar{
+    background-color: rgba(163, 212, 160, 0.336);
+    height: 50px;
+    border-radius: 7px;
+    font-size: 16px;
+    border: none;
+    box-shadow: 2px 6px 15px rgba(31, 29, 29, 0.733);
+    background-color: rgba(232, 242, 245, 0.938);
+    font-weight: normal;
+ 
 }
 
 .login {
