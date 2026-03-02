@@ -45,8 +45,9 @@ export default function Chat() {
       </div>
 
       <form className='chat-form'>
+       
         <textarea className='escribeunmensaje' placeholder="Escribe un mensaje..." />
-      <i class="bi bi-arrow-up"></i>
+      <i className="bi bi-arrow-up-square-fill"></i>
        
       </form>
     </div>

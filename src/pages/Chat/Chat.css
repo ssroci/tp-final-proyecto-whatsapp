@@ -70,16 +70,28 @@ justify-content: start;
   text-align: justify;
  
 }
+.barra-busqueda input {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 20px;
+  border: none;
+  background-color: #88b89f83;
+  color: white;
+  outline: none;
+  margin-bottom: 10px;
+}
 
 .chat-form {
   display: flex;
-  margin-top:  auto;
+
+ 
+  margin-top:  30px;
   padding: 10px;
-  gap: 10px;
+  gap: 15px;
   background-image: url('./../../../public/imagenes/fondowhanuevo.png');
   border-radius: 20px;
   margin-left: 50px;
-  margin-bottom: -30px;
+  margin-bottom: -65px;
  
   
 }
@@ -91,17 +103,19 @@ justify-content: start;
   border: none;
   outline: none;
   font-family:  Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 10x;
+  
 }
 
-.bi-arrow-up{
-  padding: 8px 20px;
-  border-radius: 20px;
-  border: none;
-  background-color: #445753;
-  color: rgb(245, 239, 239);
-  font-size: 30px;
-  align-items: normal;
-  
+.bi-arrow-up-square-fill{
+ 
+
+  font-size: 35px;
+ color: #445753;
+ margin-bottom: 10px;
+ margin-top: 10px;
+ 
+
 }
 
 .bi-arrow-left-square-fill{

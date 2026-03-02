@@ -7,7 +7,10 @@
   background-image: url('./../../../public/imagenes/otrofondo.png');
   background-size: cover;
 }
+.bi-person-fill{
 
+    font-size: 60px;
+}
 .Formulario{
     display: flex;
     justify-content: center;
@@ -15,8 +18,9 @@
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 15px;
     padding: 40px 120px;
-    background-image: url('./../../../public/imagenes/fondoformu.png');
-    
+    background-color: rgb(106, 201, 169);
+  
+
     box-shadow: 10px 10px 20px rgb(87, 85, 85);
     color: rgb(60, 65, 62);
     font-size: 16px;
@@ -30,13 +34,13 @@
 }
 
 .boton-ingresar{
-    background-color: rgb(163, 212, 160);
+    background-color: rgba(163, 212, 160, 0.336);
     height: 50px;
-    border-radius: 5px;
+    border-radius: 7px;
     font-size: 16px;
     border: none;
     box-shadow: 2px 6px 15px rgba(31, 29, 29, 0.733);
-    color: rgb(41, 43, 42);
+    background-color: rgba(232, 242, 245, 0.938);
     font-weight: normal;
  
 }
@@ -46,7 +50,8 @@
     padding: 10px 45px;
     border: none;
     border-radius: 7px;
-    box-shadow: 2px 6px 15px rgba(31, 29, 29, 0.733);
+    box-shadow: 2px 6px 15px rgba(31, 29, 29, 0.288);
+    background-color:rgb(232, 242, 245);
  
     
 }
@@ -54,8 +59,9 @@
 .password{
     padding: 10px 45px;
     border: none;
-    box-shadow: 2px 6px 15px rgba(31, 29, 29, 0.733);
+    box-shadow: 2px 6px 15px rgba(31, 29, 29, 0.288);
     border-radius:7px;
+    background-color: rgb(232, 242, 245);
 }
 
 @media (max-width: 928px){

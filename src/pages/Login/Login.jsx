@@ -9,7 +9,9 @@ function Login() {
     return(
         <section className="login">
          <form className="Formulario">
-          
+             <i className="bi bi-person-fill"></i>
+             
+             <hr />
             <label htmlFor="Usuario"> Usuario </label>
             <hr />
             <input type="text"  className="usuario" />
