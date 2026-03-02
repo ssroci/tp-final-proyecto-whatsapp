@@ -4,8 +4,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('./../../../public/imagenes/fonnnn.png');
-  position:fixed;
+  background-image: url('./../../../public/imagenes/fondowhanuevo.png');
+  background-size: cover;
 }
 
 .Formulario{
@@ -78,7 +78,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('./../../../public/imagenes/fonnnn.png');
+  background-image: url('./../../../public/imagenes/fondowhanuevo.png');
   position:fixed;
 }
 

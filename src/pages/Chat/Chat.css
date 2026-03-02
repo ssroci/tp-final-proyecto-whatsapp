@@ -16,7 +16,7 @@
   flex-direction: row;
 justify-content: start;
   padding: 10px 30px;
-   background-image: url('./../../../public/imagenes/fonnnn.png');
+   background-image: url('./../../../public/imagenes/fondowhanuevo.png');
    margin-top: 50px;
    gap: 10px;
 }
@@ -76,7 +76,7 @@ justify-content: start;
   margin-top:  auto;
   padding: 10px;
   gap: 10px;
-  background-image: url('./../../../public/imagenes/fonnnn.png');
+  background-image: url('./../../../public/imagenes/fondowhanuevo.png');
   border-radius: 20px;
   margin-left: 50px;
   margin-bottom: -30px;
@@ -106,7 +106,7 @@ justify-content: start;
 
 .bi-arrow-left-square-fill{
  font-size: 25px;
- color: #544463;
+ color: rgb(84, 162, 160);
  display: none;
  justify-content: end;
  margin-top: 15px;
@@ -141,7 +141,7 @@ justify-content: start;
   display: flex;
   justify-content: flex-start;
   margin-left: 2px;
-  color: #bfc4c2;
+  color: rgb(84, 162, 160);
   font-size: 30px;
   
   
