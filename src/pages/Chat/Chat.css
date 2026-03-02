@@ -16,7 +16,7 @@
   flex-direction: row;
 justify-content: start;
   padding: 10px 30px;
-   background-image: url(./../../../public/imagenes/fondologin.png);
+   background-image: url(./../../../public/imagenes/fondowhanuevo.png);
    margin-top: 50px;
    gap: 10px;
 }
@@ -54,7 +54,7 @@ justify-content: start;
   padding: 8px 14px;
   margin-bottom: 8px;
   border-radius: 15px;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .mio {
@@ -76,7 +76,7 @@ justify-content: start;
   margin-top:  auto;
   padding: 10px;
   gap: 10px;
-  background-image: url(./../../../public/imagenes/fondologin.png);
+  background-image: url(./../../../public/imagenes/fondowhanuevo.png);
   border-radius: 20px;
   margin-left: 50px;
   margin-bottom: -30px;
@@ -93,7 +93,7 @@ justify-content: start;
   font-family:  Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.bi-send{
+.bi-arrow-up{
   padding: 8px 20px;
   border-radius: 20px;
   border: none;
@@ -108,7 +108,7 @@ justify-content: start;
  font-size: 25px;
  color: #544463;
  display: none;
- justify-content: start;
+ justify-content: end;
  margin-top: 15px;
  margin-left: 50px;
 
@@ -129,7 +129,7 @@ justify-content: start;
 
   
   .nombreseleccionado {
-    margin-top: 15px; 
+    margin-top: 18px; 
     border-radius: 0; 
     font-size: 18px;
     display: flex;
@@ -139,7 +139,12 @@ justify-content: start;
   }
 .bi-arrow-left-square-fill{
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
+  margin-left: 2px;
+  color: #bfc4c2;
+  font-size: 30px;
+  
+  
 
 }
  
@@ -147,7 +152,7 @@ justify-content: start;
   display: flex;
   flex-direction: row;
  
-   background-image: url(./../../../public/imagenes/fondologin.png);
+   background-image: url(./../../../public/imagenes/fondowhanuevo.png);
  margin-bottom: 10px;
  position: sticky;
  margin-top: 0px;

@@ -259,8 +259,8 @@ const contacts = [
          {
               id:7,
                 text: 'dale, gracias',
-                send_by_me:false,
-                is_read:false,
+                send_by_me:true,
+                is_read:true,
 
         }
         

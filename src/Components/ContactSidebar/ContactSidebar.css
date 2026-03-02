@@ -3,7 +3,7 @@
 
 .sidebar-lista {
   max-width: 350px;
-  min-width: 280px;
+  min-width: 290px;
  
   display: flex;
   flex-direction: column;
@@ -26,7 +26,7 @@
 .bi-folder-plus{
 
   font-size: 20px;
-  color: #794d6f;
+  color: #4e9e7f;
    margin-top: 18px;
     align-items: center;
     margin-left: 15px;
@@ -34,7 +34,7 @@
 
 }
 .bi-three-dots-vertical{
-  color: #794d6f;
+  color: #4e9e7f;
   font-size: 23px;
   justify-content:flex-start;
   margin-top: 28px;
@@ -68,8 +68,8 @@
 .nombre {
   margin: 0;
   font-size: 16px;
-  font-weight: bold;
-  color: rgb(112, 111, 111);
+  font-weight: normal;
+  color: rgb(99, 97, 97);
   
 }
 
@@ -78,7 +78,8 @@
   color: rgb(128, 126, 124);
 }
 .contactos-sidebar{
-   background-color: rgba(218, 194, 194, 0.411);
+   background-color: rgba(227, 235, 233, 0.411);
+
 }
 .contacto-chat {
   display: flex;
@@ -95,7 +96,7 @@
 
 .Chats {
   display: flex;
-  color: #794d6f;
+  color: #4e9e7f;
   font-size: 20px;
   margin-left: 10px;
   padding: 10px 10px;

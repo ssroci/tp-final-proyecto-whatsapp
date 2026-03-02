@@ -52,9 +52,9 @@ body {
 
 @media (max-width: 928px){
 
-  .ContactSidebar {
-    width: 100vw; 
-    display: block;
+  .contactos-sidebar {
+    width: 105%
+    
   }
   .chat-container {
     display: none; 
