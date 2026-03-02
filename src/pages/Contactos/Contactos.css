@@ -52,21 +52,17 @@ body {
 
 @media (max-width: 928px){
 
-  .contactos-sidebar {
-    width: 105%
-    
-  }
+
+
   .chat-container {
     display: none; 
   }
   .container.chat-abierto .ContactSidebar {
     display: none; 
   }
-
-  .container.chat-abierto .chat-container {
+ .container.chat-abierto .chat-container {
     display: block; 
     width: 100vw;
     height: 100vh;
   }
-
-  }
+}

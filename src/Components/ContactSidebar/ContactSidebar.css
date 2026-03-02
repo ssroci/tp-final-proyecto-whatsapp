@@ -2,7 +2,7 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 
 .sidebar-lista {
-  max-width: 350px;
+  max-width: 900px;
   min-width: 290px;
  
   display: flex;
@@ -38,7 +38,7 @@
   font-size: 23px;
   justify-content:flex-start;
   margin-top: 28px;
-  margin-left: 150px;
+  margin-left: 190px;
   align-items: center;
   
 }
@@ -79,6 +79,8 @@
 }
 .contactos-sidebar{
    background-color: rgba(227, 235, 233, 0.411);
+   width: 380px;
+
 
 }
 .contacto-chat {
