@@ -67,7 +67,7 @@
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 15px;
     padding: 10px 25px;
-    background-image: url('./../../../public/imagenes/fondoformu.png');
+    background-image: url('./../../../public/imagenes/fondoformulario.png');
 
     
 }
@@ -78,7 +78,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('./../../../public/imagenes/fondowhanuevo.png');
+  background-image: url('./../../../public/imagenes/fonnnn.png');
   position:fixed;
 }
 
