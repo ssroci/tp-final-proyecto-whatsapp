@@ -25,16 +25,12 @@
     color: rgb(60, 65, 62);
     font-size: 16px;
     
-     
-      
-
-  
     
     
 }
 
 .boton-ingresar{
-    background-color: rgba(163, 212, 160, 0.336);
+   
     height: 50px;
     border-radius: 7px;
     font-size: 16px;
@@ -75,7 +71,6 @@
     padding: 40px 50px;
     background-color: rgb(106, 201, 169);
   
-
     box-shadow: 10px 10px 20px rgb(87, 85, 85);
     color: rgb(60, 65, 62);
     font-size: 16px;
@@ -83,7 +78,7 @@
       
 }
 .boton-ingresar{
-    background-color: rgba(163, 212, 160, 0.336);
+    
     height: 50px;
     border-radius: 7px;
     font-size: 16px;
