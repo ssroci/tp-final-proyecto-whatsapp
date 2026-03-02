@@ -54,7 +54,7 @@ justify-content: start;
   padding: 8px 14px;
   margin-bottom: 8px;
   border-radius: 15px;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .mio {
@@ -97,7 +97,7 @@ justify-content: start;
   padding: 8px 20px;
   border-radius: 20px;
   border: none;
-  background-color: #00a884;
+  background-color: #445753;
   color: rgb(245, 239, 239);
   font-size: 30px;
   align-items: normal;
@@ -106,7 +106,7 @@ justify-content: start;
 
 .bi-arrow-left-square-fill{
  font-size: 25px;
- color: rgb(84, 162, 160);
+ color: #445753;
  display: none;
  justify-content: end;
  margin-top: 15px;
@@ -129,7 +129,7 @@ justify-content: start;
 
   
   .nombreseleccionado {
-    margin-top: 18px; 
+    margin-top: 20px; 
     border-radius: 0; 
     font-size: 18px;
     display: flex;
@@ -141,8 +141,8 @@ justify-content: start;
   display: flex;
   justify-content: flex-start;
   margin-left: 2px;
-  color: rgb(84, 162, 160);
-  font-size: 30px;
+  color:#445753;
+  font-size: 35px;
   
   
 
@@ -152,7 +152,7 @@ justify-content: start;
   display: flex;
   flex-direction: row;
  
-   background-image: url(./../../../public/imagenes/fonnnn.png);
+   background-image: url(./../../../public/imagenes/fondowhanuevo.png);
  margin-bottom: 10px;
  position: sticky;
  margin-top: 0px;
@@ -161,7 +161,7 @@ justify-content: start;
 }
   .mensaje-burbuja {
     max-width: 85%; 
-    font-size: 14px;
+    font-size: 13px;
   }
 
   
@@ -175,11 +175,7 @@ justify-content: start;
   }
 
   
-  .bi-send {
-    padding: 5px 15px;
-    font-size: 24px;
-  }
-
+  
   
   .escribeunmensaje {
     padding: 8px 12px;

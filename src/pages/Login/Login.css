@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('./../../../public/imagenes/fondowhanuevo.png');
+  background-image: url('./../../../public/imagenes/otrofondo.png');
   background-size: cover;
 }
 
@@ -15,11 +15,11 @@
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 15px;
     padding: 40px 120px;
-    background-image: url('./../../../public/imagenes/fondoformulario.png');
+    background-image: url('./../../../public/imagenes/fondoformu.png');
     
     box-shadow: 10px 10px 20px rgb(87, 85, 85);
     color: rgb(60, 65, 62);
-    font-size: 18px;
+    font-size: 16px;
     
      
       
@@ -33,7 +33,7 @@
     background-color: rgb(163, 212, 160);
     height: 50px;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 16px;
     border: none;
     box-shadow: 2px 6px 15px rgba(31, 29, 29, 0.733);
     color: rgb(41, 43, 42);
@@ -67,7 +67,7 @@
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 15px;
     padding: 10px 25px;
-    background-image: url('./../../../public/imagenes/fondoformulario.png');
+    background-image: url('./../../../public/imagenes/fondoformu.png');
 
     
 }
@@ -78,7 +78,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('./../../../public/imagenes/fondowhanuevo.png');
+  background-image: url('./../../../public/imagenes/otrofondo.png');
   position:fixed;
 }
 

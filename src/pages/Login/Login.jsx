@@ -11,11 +11,11 @@ function Login() {
          <form className="Formulario">
           
             <label htmlFor="Usuario"> Usuario </label>
-            <br />
+            <hr />
             <input type="text"  className="usuario" />
             <br />
             <label htmlFor="Password">Contraseña</label>
-            <br />
+            <hr />
             <input type="password" className="password" />
             <br />
             <br />
