@@ -24,6 +24,8 @@ export default function ContactSidebar() {
     type="text" 
     placeholder="Buscar..." 
     className="search-input"
+    value={search}
+  onChange={(e) => setSearch(e.target.value)}
   />
  <i class="bi bi-search"></i>
 </div>
