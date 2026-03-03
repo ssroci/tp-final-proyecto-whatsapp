@@ -20,9 +20,10 @@ export default function Chat() {
   return (
    <div className='chat-seleccionado' key={contact_id}>
       <div className='contacto-seleccionado'>
-         <i className="bi bi-arrow-left-square-fill"  onClick={() => navigate(-1)}></i> 
-        <h2 className='nombreseleccionado'>{contact_selected.name}</h2>
         
+          <img src={contact_selected.imagen_perfil} alt={contact_selected.name} className='foto-contacto'/> 
+        <h2 className='nombreseleccionado'>{contact_selected.name}</h2>
+           <i className="bi bi-arrow-left-square-fill"  onClick={() => navigate(-1)}></i>
       </div>
       <div className='mensaje-chat'>
         {contact_selected.mensajes.map(mensaje => (

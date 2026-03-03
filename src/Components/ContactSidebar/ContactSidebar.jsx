@@ -19,14 +19,14 @@ export default function ContactSidebar() {
         <i className="bi bi-folder-plus"></i>
         <i className="bi bi-three-dots-vertical"></i>
       </div>
-      <div className="barra-busqueda">
-        <input
-          type="text"
-          placeholder="Buscar un chat..."
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-        />
-      </div>
+     <div className="busqueda-container">
+  <input 
+    type="text" 
+    placeholder="Buscar..." 
+    className="search-input"
+  />
+ <i class="bi bi-search"></i>
+</div>
 
       <div className="contactos-sidebar">
         {filteredContacts.map((contact) => (
