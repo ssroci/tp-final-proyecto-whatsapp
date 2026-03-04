@@ -1,6 +1,6 @@
 
 import ContactSidebar from "../../Components/ContactSidebar/ContactSidebar";
-import { Outlet, useParams } from "react-router"; 
+import { Outlet, useParams } from "react-router-dom"; 
 import './Contactos.css'
 
 export default function Contactos() {

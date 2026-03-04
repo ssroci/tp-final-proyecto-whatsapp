@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import { ContactsContext } from "../../Context/ContactsContext";
 import "./ContactSidebar.css";
 
